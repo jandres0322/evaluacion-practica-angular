@@ -10,6 +10,9 @@ import { ListadoCafeComponent } from './listado-cafe/listado-cafe.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ListadoCafeComponent
   ]
 })
 export class CafeModule { }
